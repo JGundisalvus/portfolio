@@ -1,0 +1,13 @@
+SELECT 
+    STRFTIME('%m', received_date) AS month,
+    CASE 
+        WHEN received_date > due_date THEN 'Late'
+        ELSE 'On Time'
+    END AS delivery_status,
+    COUNT(*) AS total_orders,
+    ROUND(COUNT(*) * 1.0 / SUM(COUNT(*)) OVER (PARTITION BY STRFTIME('%m', received_date)), 2) AS percentage_of_total
+FROM summary_view
+WHERE criticality = 'High'
+GROUP BY month, delivery_status
+HAVING quantity_received > 10
+ORDER BY month, delivery_status
