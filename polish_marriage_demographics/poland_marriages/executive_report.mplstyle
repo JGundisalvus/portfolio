@@ -1,0 +1,59 @@
+# Filename: executive_report.mplstyle
+
+# Color settings
+axes.prop_cycle: cycler('color', ["#003366", "#FF6600", "#0066CC", "#999999", "#E60000"])
+figure.facecolor: CAB0FF
+#axes.facecolor: "C0E3FF6F"
+axes.facecolor: NONE
+# grid.color: 0.88
+grid.color: FFFFFF
+grid.linestyle: "-"
+grid.linewidth: 1
+
+
+# Font settings
+# font.family: sans-serif
+font.sans-serif: Lato
+font.size: 14 
+
+# Title and label settings
+axes.titlesize: 16
+axes.titlelocation: left
+axes.titleweight: normal
+
+axes.labelsize: 16
+axes.labelweight: light
+xtick.labelsize: 14
+ytick.labelsize: 14
+
+#axes.titlepad: 0
+axes.labelpad: 0
+
+# Rotate y label and place at top
+
+# Line and marker settings
+lines.linewidth: 2.0
+lines.markersize: 6
+
+# Spines settings
+axes.spines.top: False
+axes.spines.right: False
+axes.spines.left: True
+axes.spines.bottom: True
+axes.edgecolor: 0.2
+
+# Grid settings
+axes.grid: True
+
+
+# Legend settings
+legend.fontsize: 10
+legend.frameon: True
+legend.loc: best
+legend.framealpha: 0.8
+legend.facecolor: 0.95
+
+# Save figure settings
+savefig.dpi: 300
+savefig.format: png
+savefig.bbox: tight
