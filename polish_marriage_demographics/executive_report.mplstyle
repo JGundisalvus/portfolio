@@ -11,7 +11,7 @@ figure.facecolor: white
 # grid.color: 0.88
 grid.color: FFFFFF
 grid.linestyle: "-"
-grid.linewidth: 1
+grid.linewidth: 0
 
 
 # Font settings
@@ -21,6 +21,7 @@ font.size: 14
 
 # Title and label settings
 axes.titlesize: 16
+
 # axes.titlelocation: left
 axes.titleweight: bold
 axes.titlepad: 20
@@ -32,13 +33,14 @@ xtick.labelsize: 12
 ytick.labelsize: 12
 
 
-# Rotate y label and place at top
+
 
 # Line and marker settings
 lines.linewidth: 2.0
 lines.markersize: 6
 lines.markeredgewidth: 0
 lines.markeredgecolor: 0
+
 # Spines settings
 axes.spines.top: False
 axes.spines.right: False
@@ -52,7 +54,7 @@ axes.grid: True
 
 # Legend settings
 legend.fontsize: 10
-legend.frameon: True
+legend.frameon: False
 legend.loc: best
 legend.framealpha: 0.8
 legend.facecolor: 0.95
