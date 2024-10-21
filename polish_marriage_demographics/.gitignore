@@ -5,3 +5,5 @@ notes.txt
 app.py
 graphs/
 poland_marriages/
+data_exploration_no_code.ipynb
+export_script.py
