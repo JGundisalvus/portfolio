@@ -1,0 +1,24 @@
+What are the marriage trends in Poland? Are more or less people getting married? Later or younger in life?
+    I want to see how many marriages are happening over each year. And an average of the age plotted on the same chart. Ability to zoom the graph by years.
+
+
+For Women and Men, how many marriages are done by each age goup? Who is increasing or decreasing?
+As a percent of total marriages, which age group sees the most change? (Max Delta shown)
+    I want a chart that shows the number of marrigaes by each age group over time.
+    I want a chart that shows the % of marriages by each age group over time.
+    I want to flip between Male and female.
+    I want to flip between # and %.
+
+---
+
+For overall marraige I need to plot the total marriages for each year.
+For Average overall age I need a column that computes the average age from the bins (mid point) for each year. Might need to pivot for years to be index. Calc across the age groups and add new column for 'Avg Age'. Then plot this for men and women over time.
+
+
+I need to pull the data for each gender age group from 2010 to 2023
+I need to change the age groups to a consolidate over 40 marriages
+I need to recalcualte the total for the new age groups for each year
+I need to calculate a total column for each year
+I need to calculate a % total column for each year
+
+
